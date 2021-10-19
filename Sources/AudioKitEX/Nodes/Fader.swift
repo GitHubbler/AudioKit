@@ -102,7 +102,8 @@ public class Fader: Node {
     }
 
     deinit {
-        // Log("* { Fader }")
+        Log("* { Fader }")
+        print("\\debug 21101910112 Fading away fader: \(self)")
     }
 
     // MARK: - Automation
